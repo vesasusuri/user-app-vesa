@@ -1,10 +1,9 @@
 import React from 'react'
-// import Navbar from '../../components/shared/Navbar/Navbar'
-
+import Users from '../../components/pages/Users/Users'
 const Home = () => {
     return (
         <div className='home-page'>
-            {/* <Navbar /> */}
+            <Users/>
         </div>
     )
 }

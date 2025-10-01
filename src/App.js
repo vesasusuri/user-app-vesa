@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.scss';
-
+import HomeWrapper from './pages/Home';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World :)</h1>
+      <HomeWrapper/>
     </div>
   );
 }
 
 export default App;
+ 
